@@ -20,7 +20,6 @@ RUN a2enmod headers
 
 COPY ./apache-flask.wsgi /var/www/apache-flask/apache-flask.wsgi
 COPY ./run.py /var/www/apache-flask/run.py
-#COPY ./app /var/www/apache-flask/app/
 
 VOLUME ["/var/www/apache-flask/app"]
 
