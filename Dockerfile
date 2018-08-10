@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y apache2 \
     python \
     python-dev\
     python-pip \
+    libmysqlclient-dev \
     vim \
  && apt-get clean \
  && apt-get autoremove \
